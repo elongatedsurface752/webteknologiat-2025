@@ -1,0 +1,18 @@
+fieldset {
+    background-color: rgb(155, 177, 197);
+    border-color: black;
+    border-width: 7px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: green;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+    font-size: large;
+}
