@@ -1,0 +1,12 @@
+table,
+td {
+    border: 1px solid black;
+}
+
+.yes {
+    color: rgb(0, 255, 0);
+}
+
+.no {
+    color: red;
+}
