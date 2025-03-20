@@ -10,59 +10,73 @@
     <h1>Lomake</h1>
     <form>
         <fieldset>
+            <div class="container"></div>
             <legend>Contact information</legend>
-            <div class="contact">
+            <div class="container">
+                <div class="input-container">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                <div class="input-container">
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname">
+
+                </div>
+                <div class="input-container">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+
+                </div>
+                <div class="input-container">
+                    <label for="phone">Telephone:</label>
+                    <input type="text" id="phone" name="phone">
+                </div>
+            </div>
+            <div class="container">
                 <div>
-                    <span><label for="fname">First name:</label></span>
-                    <span><input type="text" id="fname" name="fname"></span>
-                    <span><label>Preferred contact method</label></span>
+                    <label class="title">Preferred contact method</label>
                 </div>
                 <div>
-                    <span><label for="lname">Last name:</label></span>
-                    <span><input type="text" id="lname" name="lname"></span>
-                    <span>
-                        <input type="checkbox" id="prefEmail" name="prefEmail">
-                        <label for="prefEmail">Email</label>
-                    </span>
+
+                    <input type="checkbox" id="prefEmail" name="prefEmail">
+                    <label for="prefEmail">Email</label>
+
                 </div>
                 <div>
-                    <span><label for="email">Email:</label></span>
-                    <span><input type="email" id="email" name="email"></span>
-                    <span>
-                        <input type="checkbox" id="prefPhone" name="prefPhone">
-                        <label for="prefPhone">Telephone</label>
-                    </span>
+
+                    <input type="checkbox" id="prefPhone" name="prefPhone">
+                    <label for="prefPhone">Telephone</label>
+
                 </div>
-                <div>
-                    <span><label for="phone">Telephone:</label></span>
-                    <span><input type="text" id="phone" name="phone"></span>
-                </div>
+            </div>
             </div>
         </fieldset>
 
         <fieldset>
             <legend>Feedback</legend>
-            <div class="feedback">
+            <div class="container">
                 <div>
-                    <span><label for="subject">Message subject:</label></span>
-                    <span><input type="text" id="subject" name="subject"></span>
+                    <label for="subject" class="title">Message subject:</label>
+                </div>
+                <div>
+                    <input type="text" id="subject" name="subject">
                 </div>
                 <div>
                     <span colspan="2">
                         <textarea rows="10" cols="50"></textarea>
-                    </span>
+
                 </div>
                 <div>
                     <span colspan="2">
                         <label>Attach a file:
                             <input type="file">
                         </label>
-                    </span>
+
                 </div>
                 <div>
                     <span colspan="2">
                         <button id="send" name="send">Send</button>
-                    </span>
+
                 </div>
             </div>
         </fieldset>
