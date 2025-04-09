@@ -22,16 +22,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="kurssit.html">Kurssit</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#hello">Hello</a>
+                        <a class="nav-link active" aria-current="page" href="lomake.html">Lomake</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#karuselli">karuselli</a>
+                        <a class="nav-link active" aria-current="page" href="kurssit css.html">Kurssit CSS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#kortti">kortti</a>
+                        <a class="nav-link active" aria-current="page" href="lomake css.html">Lomake CSS</a>
                     </li>
             </div>
         </div>
@@ -40,19 +40,134 @@
     <div class="container">
         <div id="hello" class="text-center my-5 py-2">
             <h1>HTML Perusteet</h1>
-            <p>Hey</p>
         </div>
 
-        <div id="kortti" class="my-5 d-flex justify-content-evenly">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Kissa</h5>
-                    <p class="card-text">KissaKissaKissaKissa <a href="https://cataas.com/cat">Kissa</a></p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div id="kortti" class="my-5 row">
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">&lt;html&gt;</h5>
+                        <p class="card-text">Kaikki koodi kirjoitetaan tämän tagin sisään.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">&lt;head&gt;</h5>
+                        <p class="card-text">Tähän osioon lisätään sivun taustatietoja, kuten otsikko ja tyylit.</p>
+                        <p class="card-text">Esim &lt;title&gt;Otsikko&lt;/title&gt;</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">&lt;body&gt;</h5>
+                        <p class="card-text">Tähän osioon tulee kaikki sivulla näkyvä sisältö.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">&lt;p&gt;</h5>
+                        <p class="card-text">Käytetään tekstikappaleiden luomiseen.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">&lt;a&gt;</h5>
+                        <p class="card-text">Luo linkin toiseen sivuun.</p>
+                        <p class="card-text">Esim &lt;a href="https://www.example.com"&gt;Klikkaa tästä&lt;/a&gt;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">&lt;img&gt;</h5>
+                        <p class="card-text">Näyttää kuvan sivulla.</p>
+                        <p class="card-text">Esim &lt;img src="kuva.jpg" alt="Kuvaus"&gt;</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">&lt;br&gt;</h5>
+                        <p class="card-text">Lisää rivinvaihdon.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">&lt;h1&gt;</h5>
+                        <p class="card-text">Otsikko, suurentaa fontin kokoa.</p>
+                    </div>
                 </div>
             </div>
         </div>
 
+        <h3>CSS esimerkkejä</h3>
+
+        <div id="kortti" class="my-5 row">
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Tekstin väri</h5>
+                        <p class="card-text">Vaihda tekstin väriä.</p>
+                        <p class="card-text">Esim: &lt;p style="color:DeepPink;"&gt;Tämä on pinkkiä tekstiä&lt;/p&gt;
+                        </p>
+                        <p style="color:DeepPink;">Tämä on pinkkiä tekstiä</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Taustaväri</h5>
+                        <p class="card-text">Muuta elementin taustaväriä.</p>
+                        <p class="card-text">&lt;p style="background-color:rgb(16, 212, 42);"&gt;...&lt;/p&gt;</p>
+                        <p style="background-color:rgb(16, 212, 42);">Tällä kappaleella on taustaväri</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Fontin koko</h5>
+                        <p class="card-text">Säädä tekstin kokoa.</p>
+                        <p class="card-text">&lt;p style="font-size:21px;"&gt;...&lt;/p&gt;</p>
+                        <p style="font-size:21px;">Tämä teksti on suurempi</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Reunus</h5>
+                        <p class="card-text">Lisää reunus elementille.</p>
+                        <p class="card-text">&lt;p style="border: 2px solid black;"&gt;...&lt;/p&gt;</p>
+                        <p style="border: 2px solid black;">Tällä tekstillä on musta reunus</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h3>CSS Kirjastot</h3>
+        <p>Käyttämällä valmiita CSS-kirjastoja, esimerkiksi <a href="https://getbootstrap.com"
+                target="_blank">Bootstrap</a> voi helpottaa kehitystä.</p>
 
 
     </div>
